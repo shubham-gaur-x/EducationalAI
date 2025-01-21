@@ -22,10 +22,6 @@ tailored learning profiles, study plans, quizzes, and chatbot simulations.
 - Simulates an interactive chatbot to guide Alex in solving linear equations step-by-step.
 - Iterative improvements enhance the chatbot’s engagement, clarity, and motivational tone.
 
-## Files and Structure
-
-├── src/ │ ├── learning_profile.py # Generates the learning profile │ ├── study_plan.py # Creates the personalized study plan │ ├── quiz_generation.py # Generates algebra and physics quizzes │ ├── chatbot_simulation.py # Simulates a chatbot for math guidance ├── assets/ │ ├── prompts.md # Prompts used for the AI models │ ├── outputs/ # Generated outputs from each stage ├── README.md # Project documentation ├── requirements.txt # Python dependencies └── .env # Environment variables (e.g., OpenAI API key)
-
 ## Prerequisites
 
 - Python 3.7 or higher
@@ -45,13 +41,13 @@ Create a .env file in the root directory:
 
 OPENAI_API_KEY=your-api-key-here
 
-Key Learnings and Challenges
+## Key Learnings and Challenges
 Prompt Engineering: Iteratively refined prompts to ensure high-quality, contextually appropriate outputs.
 Balancing Clarity and Engagement: Strived to make interactions concise, engaging, and student-friendly.
 Token Limit Management: Handled token limits in API calls to avoid truncation and ensure completeness.
 Interactive Design: Enhanced chatbot interactions across iterations to improve motivation and understanding.
 
-Future Enhancements
+## Future Enhancements
 Include more diverse quizzes (e.g., real-world problems).
 Integrate alternative problem-solving approaches (e.g., graphical solutions).
 Expand functionality to support additional subjects.
@@ -59,12 +55,8 @@ Use a database to store and analyze Alex’s progress over time.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 For any questions or suggestions, feel free to reach out:
-
-Name: Shubham Gaur
-Email: your.email@example.com
-GitHub: yourusername
